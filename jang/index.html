@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>
+        <a href="#" class="logo""></a>
+        <span class="blind">유컴패니온</span>
+      </h1>
+    </header>
+    <main>
+      <form action="#" method="post" name="join-info">
+        <fieldset>
+          <legend>회원가입</legend>
+          <div> 
+            <div class="textarea"><label for="userid">아이디</label></div>
+            <div class="textbox clearfix">
+              <input type="text" id="userid" class="inputbox id" maxlength="20">
+              <span class="useremail">@ucomp.co.kr</span>
+            </div>
+            <div class="check-text">필수 정보입니다.</div>
+          </div>
+          <div>
+            <div class="textarea"><label for="userpw">비밀번호</label></div>
+            <div class="textbox pw">
+              <input type="password" id="userpw" class="inputbox pw" maxlength="20">
+            </div>
+          </div>
+          <div>
+            <div class="textarea"><label for="confirmpw">비밀번호 재확인</label></div>
+            <div class="textbox confirmpw">
+              <input type="password" id="confirmpw" class="inputbox confirmpw" maxlength="20">
+            </div>
+          </div>
+          <div>
+            <div class="textarea"><label for="username">이름</label></div>
+            <div class="textbox">
+              <input type="text" id="username" class="inputbox" maxlength="40">
+            </div>
+          </div>
+          <div>
+            <div class="textarea"><label for="birth-year">생년월일</label></div>
+            <div class="birth-wrap clearfix">
+              <div class="textbox birth year">
+                <input type="text" id="birth-year" class="inputbox birth" placeholder="년(4자)">
+              </div>  
+              <div class="textbox birth month slc">
+                <select name="birth-month" id="birth-month" class="inputbox birth slc">
+                  <option value="월">월</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                </select>
+              </div>
+              <div class="textbox birth day">  
+                <input type="text" id="birth-day" class="inputbox birth" placeholder="일">
+              </div>
+            </div>  
+          </div>
+          <div>
+            <div class="textarea"><label for="gender">성별</label></div>
+            <div class="textbox slc">
+              <select name="gender" id="gender" class="inputbox slc">
+                <option value="성별">성별</option>
+                <option value="남자">남자</option>
+                <option value="여자">여자</option>
+                <option value="선택안함">선택안함</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <div class="textarea"><label for="email">본인 확인 이메일<span>(선택)</span></label></div>
+            <div class="textbox">
+              <input type="text" id="email" class="inputbox" placeholder="선택입력">
+            </div> 
+          </div>
+          <div>
+            <div class="textarea"><label for="nation-no">휴대전화</label></div>
+            <div class="textbox slc">
+              <select name="nation-no" id="nation-no" class="inputbox slc">
+                <option value="82">대한민국 +82</option>
+                <option value="45">덴마크 +45</option>
+                <option value="961">레바논 +961</option>
+                <option value="52">멕시코 +52</option>
+                <option value="55">브라질 +55</option>
+                <option value="41">스위스 +41</option>
+                <option value="34">스페인 +34</option>
+                <option value="86">중국 +86</option>
+                <option value="39">이탈리아 +39</option>
+                <option value="63">필리핀 +63</option>
+                <option value="61">호주 +61</option>
+              </select>
+            </div>   
+            <div class="phone-wrapper clearfix">
+              <div class="textbox phone">
+                <label for="phone-no"></label>
+                <input type="text" id="phone-no" class="inputbox phone" placeholder="전화번호 입력">
+              </div> 
+              <button class="textbox send-btn">인증번호 받기</button>
+            </div>
+            <div class="textbox auth-no">
+              <input type="text" id="confirm-auth" class="inputbox auth-no" placeholder="인증번호 입력하세요">
+            </div>
+          </div>
+          <button class="textbox join-btn">가입하기</button>
+        </fieldset>
+      </form>
+    </main>
+    <footer>
+      <div class="footer-wrap">
+        <a href="#" class="list-item">이용약관</a>
+        <a href="#" class="list-item">개인정보처리방침</a>
+        <a href="#" class="list-item">책임의 한계와 법적고지</a>
+        <a href="#" class="list-item">회원정보 고객센터</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>join-form</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="join">
+
+      <!-- HEADER -->
+      <div class="join-header">
+        <h1 class="logo">
+          <a href="#"><span class="hidden">유컴패니온</span></a>
+        </h1>
+      </div>
+
+      <!-- CONTENT -->
+      <h2 class="hidden">회원가입</h2>
+      <div class="join-content">
+        <form action="" method="" class="join-form">
+
+          <div class="group user-account">
+            <div class="id-area">
+              <div class="join-title">
+                <label for="id">아이디</label>
+              </div>
+              <div class="join-id">
+                <input type="text" id="id" name="id">
+                <span class="email-end">@ucomp.co.kr</span>
+              </div>
+              <div class="notice">필수 정보입니다.</div>
+            </div>
+            <div class="pwd-area">
+              <div class="join-title">
+                <label for="pwd">비밀번호</label>
+              </div>
+              <div class="join-pwd">
+                <input type="text" id="pwd" name="pwd">
+                <i class="icon-pwd"></i>
+              </div>
+            </div>
+            <div class="pwd-check-area">
+              <div class="join-title">
+                <label for="pwdCheck">비밀번호 재확인</label>
+              </div>
+              <div class="join-pwd-check">
+                <input type="text" id="pwdCheck" name="pwdCheck">
+                <i class="icon-pwd-check"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="group user-info">
+            <div class="name-area">
+              <div class="join-title">
+                <label for="name">이름</label>
+              </div>
+              <input type="text" id="name" name="name">
+            </div>
+            <div class="bir-area">
+              <div class="join-title">
+                <label for="year">생년월일</label>
+              </div>
+              <div class="birthday-group">
+                <div class="bir-year">
+                  <input type="text" id="year" name="year" placeholder="년(4자)">
+                </div>
+                <div class="bir-month">
+                  <div class="sel-box">
+                    <select id="month" name="month">
+                      <option value>월</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                      <option value="11">11</option>
+                      <option value="12">12</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="bir-day">
+                  <input type="text" id="day" placeholder="일">
+                </div>
+              </div>
+            </div>
+            <div class="gender-area">
+              <div class="join-title">
+                <label for="gender">성별</label>
+              </div>
+              <div class="sel-box">
+                <select id="gender" name="gender">
+                  <option value>성별</option>
+                  <option value="m">남자</option>
+                  <option value="f">여자</option>
+                  <option value="u">선택안함</option>
+                </select>
+              </div>
+            </div>
+            <div class="email-area">
+              <div class="join-title">
+                <label for="email">본인확인 이메일<span>(선택)</span></label>
+              </div>
+              <input type="text" id="email" name="email" placeholder="선택입력">
+            </div>
+          </div>
+
+          <div class="group user-phone">
+            <div class="verify-area">
+              <div class="join-title">
+                <label for="phone">휴대전화</label>
+              </div>
+              <div class="sel-box">
+                <select id="nation" name="nation">
+                  <option value="82">대한민국 +82</option>
+                  <option value="233">가나 +233</option>
+                  <option value="241">가봉 +241</option>
+                  <option value="592">가이아나 +592</option>
+                </select>
+              </div>
+              <div class="phone-verify ctrl">
+                <input type="text" class="phone" id="phone" name="phone" placeholder="전화번호 입력">
+                <button type="button" class="verify-btn" id="verify-btn">
+                  인증번호 받기
+                </button>
+              </div>
+              <div class="verify-num">
+                <input type="text" class="verify-input" name="verifyInput" placeholder="인증번호 입력하세요" disabled>
+              </div>
+            </div>
+          </div>
+
+          <div class="btn">
+            <button type="button" id="join-btn" class="join-btn">가입하기</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- FOOTER -->
+      <div class="join-footer ctrl">
+        <ul>
+          <li>
+            <a href="#">이용약관</a>
+          </li>
+          <li class="bold">
+            <a href="#">개인정보처리방침</a>
+          </li>
+          <li>
+            <a href="#">책임의 한계와 법적고지</a>
+          </li>
+          <li>
+            <a href="#">회원정보 고객센터</a>
+          </li>
+        </u>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
